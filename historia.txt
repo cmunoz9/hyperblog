@@ -1,20 +1,7 @@
-Esta es la historia de Freddy Vega
-
-Freddy Vega tiene 33 aÃ±os y naciÃ³ en Colombia,
-viviendo en todo el mundo
-
-Hoy hablaremos de su historia.
+Hoy hablaremos git.
 
 
-$ mkdir git_reset_test
-$ cd git_reset_test/
-$ git init .
-Initialized empty Git repository in /git_reset_test/.git/
-$ touch reset_lifecycle_file
-$ git add reset_lifecycle_file
-$ git commit -m"initial commit"
-[main (root-commit) d386d86] initial commit
-1 file changed, 0 insertions(+), 0 deletions(-)
+
 create mode 100644 reset_lifecycle_file
 
 git reset --soft: Borra el historial y los registros de Git de commits anteriores, pero guarda los cambios en Staging para aplicar las últimas actualizaciones a un nuevo commit.
